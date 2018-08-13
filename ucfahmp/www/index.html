@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Web & Mobile</title>
+    <title>Question Setting</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -64,8 +64,17 @@
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
       <header class="demo-header mdl-layout__header mdl-color--purple-50 mdl-color-text--purple-600">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Home</span>
+          <span class="mdl-layout-title">Question Setting</span>
           <div class="mdl-layout-spacer"></div>
+		  <div class="mdl-layout-spacer"></div>
+		  <!--head-->
+		  <button class="mdl-button mdl-js-button mdl-button--icon" href="#" onclick="window.open('UserGuide.html','_system');">
+            <i class="mdl-color-text--purple-600 material-icons">bookmark</i>
+          </button>
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color--purple-50 mdl-color-text--purple-600" href="" onclick='getQuestions(); return false' style='margin-right: 40px'>Questions
+          </button>	
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color--purple-50 mdl-color-text--purple-600" id="startUpload" onclick="startDataUpload ()" style='margin-right: 40px'>Save
+          </button>	
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
