@@ -6,7 +6,7 @@ The code for this repository is part of 3 GitHub repositories for the Coursework
 
 2- The Question Setting App that runs from a browser- This repository https://github.com/hattiephillips/QuestionSetting
 
-3- A NodeJS server that saves the questions to the database from the question setting app, and serves these questions to the quiz app, and then collects the users answers to the quiz and saves them to the database. This is found here: (ADD LINK)
+3- A NodeJS server that saves the questions to the database from the question setting app, and serves these questions to the quiz app, and then collects the users answers to the quiz and saves them to the database. This is found here: https://github.com/hattiephillips/NJSServer
 
 # Question Setting
 
